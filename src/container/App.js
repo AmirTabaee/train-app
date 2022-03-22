@@ -1,12 +1,12 @@
 import React from "react";
 import "../assets/bootstrap.min.css";
+import ProductContainer from "../components/product/ProductContainer";
 
 const App = () => {
    return (
-      <>
-         <div>hello world</div>
-         <button className="btn btn-danger">click me</button>
-      </>
+      <div className="mt-4">
+         <ProductContainer />
+      </div>
    );
 };
 
